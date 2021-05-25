@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: url('https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')
+    no-repeat center/cover;
+}
+.container {
+  display: flex;
+  width: 66vw;
+}
+.panel {
+  margin: 0.6rem;
+  border-radius: 1rem;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.9s ease-out;
+  cursor: pointer;
+  box-shadow: 0.3rem 0.4rem 0.6rem 0.2rem #777;
+}
+.panel:hover {
+  transform: scale(1.1);
+}
+
+.panel.active {
+  flex: 1;
+}
+
+.panel h3 {
+  opacity: 0;
+}
+.panel.active h3 {
+  font-size: 2.6rem;
+  color: brown;
+  font-weight: 900;
+  text-align: center;
+  opacity: 1;
+}
