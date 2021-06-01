@@ -14,8 +14,7 @@ body {
 }
 
 .container {
-  width: 50%;
-  /* height: 50%; */
+  width: 60%;
   margin: auto;
   text-align: center;
 }
@@ -57,4 +56,19 @@ body {
 
 .btn:hover {
   transform: rotate(360deg);
+}
+
+.reset-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.4rem;
+  background-color: rgb(0, 110, 112);
+  border: none;
+  outline: none;
+  transform: translateY(-18px);
+  border-radius: 2rem;
+  cursor: pointer;
+  color: lightblue;
+}
+.reset-btn:active {
+  transform: scale(0.95);
 }
