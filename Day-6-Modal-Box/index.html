@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Modal Box API</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Modal Box API</h1>
+        <h4>Click below to get a cool recipe</h4>
+    </header>
+    <!-- floating icon -->
+    <i class="far fa-hand-point-down"></i>
+    <main>
+        <!-- modal section -->
+        <section id="modal-sec">
+            <div class="modal-cont">
+                <h1 class="recipe-title">Title of recipe here</h1>
+                <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img">
+                <p class="desc">description will go here</p>
+            </div>
+    </section>
+
+        <!-- button section -->
+        <section id="button-sec">
+            <button id="btn" class="btn">
+                Click to show recipe
+            </button>
+        </section>
+    </main>
+    <script src="App.js"></script>
+</body>
+
+</html>
