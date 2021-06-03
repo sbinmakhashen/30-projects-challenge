@@ -34,7 +34,7 @@ header {
 }
 
 /* icon */
-i {
+.hand {
 	font-size: 2rem;
 	margin: 1rem 0;
 	transition: all 0.4s ease-in-out;
@@ -83,16 +83,33 @@ i {
 	top: 0;
 	left: 0;
 	z-index: 1;
+	display: none;
+	/* transition: all 0.4s ease-in-out; */
+	animation: slideDown ease 0.8s;
 }
 .modal-cont {
-	background-color: darkslategrey;
+	background-color: darkslateblue;
 	border-radius: 2rem;
 	padding: 1rem;
 	position: fixed;
 	top: 2rem;
-	left: 0;
+	left: -100px;
 	transform: translateX(50%);
-	width: 50%;
+	width: 60%;
+}
+@keyframes slideDown {
+	0% {
+		transform: translateY(-30rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+#close {
+	font-size: 1.8rem;
+	float: right;
+	color: red;
+	cursor: pointer;
 }
 #modal-sec img {
 	width: 300px;
