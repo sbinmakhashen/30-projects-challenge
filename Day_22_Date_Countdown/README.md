@@ -17,7 +17,8 @@
 
 ### Eid holiday countdown 
 
-![1](https://user-images.githubusercontent.com/48455909/124398234-9aa29d00-dce2-11eb-847f-04761aee4bd8.PNG)
+![1](https://user-images.githubusercontent.com/48455909/124398347-4ba93780-dce3-11eb-8e61-cf1b11c51830.PNG)
+
 
 
 ---
