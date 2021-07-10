@@ -5,4 +5,4 @@
 
 ---
 
-### Please click here to se the live version of this app <a href='https://randompasswordgene.netlify.app/' target="_top">Password Generator site</a>
+### Please click here to se the live version of this app <a href='https://randompasswordgene.netlify.app/' target="_blank">Password Generator site</a>
