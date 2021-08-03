@@ -3,4 +3,4 @@
 
 ---
 
-### Please navigate to the [project repo](https://github.com/sbinmakhashen/Firebase-Signin-Auth) to check the app
+### Please navigate to the [project repo](https://github.com/sbinmakhashen/Firebase-Signin-Auth) to check the code, `or` [click here](https://fire-login.netlify.app) to preview the web app 
