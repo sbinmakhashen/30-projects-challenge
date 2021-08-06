@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #345;
+  color: #e0e0e0;
+}
+
+#toasts {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  .toast {
+    background: darkmagenta;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+// styling for types of messages
+.toast {
+  &.normal {
+    color: #fff;
+  }
+
+  &.success {
+    color: green;
+  }
+
+  &.error {
+    color: red;
+  }
+}
