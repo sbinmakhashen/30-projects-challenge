@@ -1,0 +1,45 @@
+.menu-btn {
+  position: absolute;
+  z-index: 1;
+  right: 1rem;
+  top: 1rem;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  @include transition;
+
+  &-burger {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 28px;
+    height: 3px;
+    background: set-text-color($primary-color);
+    @include transition;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      width: 28px;
+      height: 3px;
+      background: set-text-color($primary-color);
+      @include transition;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 8px;
+      width: 20px;
+      height: 3px;
+      background: set-text-color($primary-color);
+      @include transition;
+    }
+
+    &.open {
+      transform: rotate(330deg);
+      background: transparent;
+    }
+  }
+}
