@@ -27,9 +27,10 @@
 
 <p>
   I have implemented this project in the context of a course at 
-  <a href="https://profy.dev/">profy.dev</a>.
+  <a href="https://profy.dev/" target="_blank" rel="nofollow">profy.dev</a>.
   This course minics a professional real-world developement enviorment.
 </p>
 
 <p>
+  The designs were provided via <a><a/>
 </p>
